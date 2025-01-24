@@ -9,7 +9,7 @@ Binary Search is an efficient algorithm used for finding an element in a sorted 
     - the target element is larger, search the right half of the array.
 3. Repeat the process until the element is found or the search range is empty.
 
-Let’s consider an example. We have the following array of numbers:
+Let’s consider an example where we search for the number `8` in the following array of numbers:
 
 ```java
 [3, 7, 8, 9, 14, 16, 17, 22, 24]
@@ -81,16 +81,17 @@ public class RecursiveSolution {
 }
 ```
 
-## Complexity
+## Time Complexity
 
-- Time Complexity:
-  - Best case complexity: `O(1)`
-  - Average Case Complexity: `O(logn)`
-  - Worst-case complexity: `O(logn)`
+- Best case: `O(1)`
+- Average Case: `O(logn)`
+- Worst-case: `O(logn)`
 
 ## Advantages
 
-- When it comes to comparing large data, it is quite efficient as it works on the technique to eliminate half of the array element. It has less compilation time and thus better time complexity. As it breaks the array in half, it is considered an improvement over linear search.
+- When it comes to comparing large data, it is quite efficient as it works on the technique to eliminate half of the array element.
+  - It has less compilation time and thus better time complexity.
+  - As it breaks the array in half, it is considered an improvement over linear search.
 - Simple implementation.
 
 ## Disadvantages
@@ -100,11 +101,11 @@ public class RecursiveSolution {
 
 ## Usage
 
-- **Searching in sorted arrays**: *used to efficiently find an element in a sorted array.*
-- **Database queries**: *can be used to quickly locate records in a database table that is sorted by a specific key.*
-- **Finding the closest match**: *can be used to find the closest value to a target value in a sorted list.*
-- **Interpolation search**: *can be used as a starting point for interpolation search, which is an even faster search algorithm.*
+- **Searching in sorted arrays**: efficient for finding elements in sorted arrays.
+- **Database queries**: quickly locates records in sorted tables.
+- **Finding the closest match**: finds values closest to a target in sorted lists.
+- **Interpolation search**: serves as a starting point for faster search algorithms.
 
 ---
 
-**Parent**: [[_Search]]
+**Parent:** [[_Search]]
