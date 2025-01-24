@@ -8,8 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
-    pageTitleSuffix: "",
+    pageTitle: "𝕓𝕣𝕒𝕚𝕟. 𝕜𝕒𝕞𝕚𝕝𝕝𝕠𝕓𝕚𝕟𝕤𝕜𝕚.𝕕𝕖𝕧",
+    pageTitleSuffix: " — brain.kamillobinski.dev",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -35,8 +35,8 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
+          secondary: "#000000",
+          tertiary: "#707070",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#fff23688",
         },
@@ -46,8 +46,8 @@ const config: QuartzConfig = {
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
+          secondary: "#ffffff",
+          tertiary: "#8C8C8C",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#b3aa0288",
         },

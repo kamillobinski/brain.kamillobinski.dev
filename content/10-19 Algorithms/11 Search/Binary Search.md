@@ -100,10 +100,10 @@ public class RecursiveSolution {
 
 ## Usage
 
-- **Searching in sorted arrays**: Binary search is used to efficiently find an element in a sorted array.
-- **Database queries**: Binary search can be used to quickly locate records in a database table that is sorted by a specific key.
-- **Finding the closest match**: Binary search can be used to find the closest value to a target value in a sorted list.
-- **Interpolation search**: Binary search can be used as a starting point for interpolation search, which is an even faster search algorithm.
+- **Searching in sorted arrays**: *used to efficiently find an element in a sorted array.*
+- **Database queries**: *can be used to quickly locate records in a database table that is sorted by a specific key.*
+- **Finding the closest match**: *can be used to find the closest value to a target value in a sorted list.*
+- **Interpolation search**: *can be used as a starting point for interpolation search, which is an even faster search algorithm.*
 
 ---
 
