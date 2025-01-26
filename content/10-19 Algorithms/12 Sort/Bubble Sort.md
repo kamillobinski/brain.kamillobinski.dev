@@ -12,6 +12,8 @@ The name “Bubble Sort” comes from the way smaller or larger elements “bubb
 4. Continue this process for each element in the array until the largest element “bubbles” to the end.
 5. Repeat the entire process for the remaining unsorted part of the array until the entire array is sorted.
 
+![Bubble Sort](../../assets/images/bubble-sort-example.png)
+
 Let’s consider an example with the following array of numbers:
 
 ```java
@@ -40,6 +42,8 @@ Pass 4: [7, 8, 9, 14, 17]
 
 ## Java Implementation
 
+> [!info] Standard method
+
 ```java
 public class Solution {
     public static void bubbleSort(int[] arr) {
@@ -57,7 +61,7 @@ public class Solution {
 }
 ```
 
-> [!info] Optimized
+> [!info] Optimized method
 
 ```java
 public class Solution {
@@ -95,7 +99,7 @@ public class Solution {
 
 ## Disadvantages
 
-- Highly inefficient for large datasets due to its O(n^2) time complexity.
+- Highly inefficient for large datasets due to its `O(n^2)` time complexity.
 - Much slower compared to other sorting algorithms like Quick Sort or Merge Sort.
 - Performance decreases significantly as the dataset size increases.
 - Involves a high number of swaps, which adds unnecessary overhead for larger arrays.
