@@ -34,9 +34,7 @@ Repeat the process of finding the middle element until the target element is fou
 
 ## Java Implementation
 
-> [!info] Iterative method
-
-```java
+```java title="Iterative method"
 public class IterativeSolution {
     public static int binarySearch(int[] arr, int target) {
         int left = 0;
@@ -59,9 +57,7 @@ public class IterativeSolution {
 }
 ```
 
-> [!info] Recursive method
-
-```java
+```java title="Recursive method"
 public class RecursiveSolution {
     public static int binarySearchRecursive(int[] arr, int left, int right, int target) {
         if (left > right) {

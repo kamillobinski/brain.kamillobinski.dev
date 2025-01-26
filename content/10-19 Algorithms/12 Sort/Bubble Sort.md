@@ -42,9 +42,7 @@ Pass 4: [7, 8, 9, 14, 17]
 
 ## Java Implementation
 
-> [!info] Standard method
-
-```java
+```java title="Standard method"
 public class Solution {
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
@@ -61,9 +59,7 @@ public class Solution {
 }
 ```
 
-> [!info] Optimized method
-
-```java
+```java title="Optimized method"
 public class Solution {
     public static void optimizedBubbleSort(int[] arr) {
         int n = arr.length;
@@ -84,7 +80,7 @@ public class Solution {
 }
 ```
 
-### Complexity
+### Time Complexity
 
 - Best case: `O(n)`
 - Average case: `O(n^2)`
