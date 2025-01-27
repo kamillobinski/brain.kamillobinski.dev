@@ -9,13 +9,13 @@ Binary Search is an efficient algorithm used for finding an element in a sorted 
     - the target element is larger, search the right half of the array.
 3. Repeat the process until the element is found or the search range is empty.
 
+![Binary Search](../../assets/images/binary-search-example.png)
+
 Let’s consider an example where we search for the number `8` in the following array of numbers:
 
 ```java
 [3, 7, 8, 9, 14, 16, 17, 22, 24]
 ```
-
-![Binary Search](../../assets/images/binary-search-example.png)
 
 Search for the middle element.
 

@@ -8,13 +8,13 @@ Linear Search is a simple search algorithm that sequentially examines each eleme
    - If the elements are not equal, we move to the next element.
 3. The process repeats until the element is found or the end of the array is reached.
 
+![Linear Search](../../assets/images/linear-search-example.png)
+
 Let’s consider an example where we search for the number `8` in the following array of numbers:
 
 ```java
 [17, 14, 9, 8, 7, 16, 24, 22, 3]
 ```
-
-![Linear Search](../../assets/images/linear-search-example.png)
 
 Compare the target with the first element.
 
